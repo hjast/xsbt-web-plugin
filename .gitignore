@@ -9,7 +9,8 @@ com.sportaneous-api-server/src/main/scala/com/com.sportaneous/prediction/SimpleP
 web/src/main/webapp/.sass-cache/
 web/src/main/webapp/css/generate/
 **/target/**
-
+target/**
+commons/target/**
 *.class
 *.iml
 .idea/*
