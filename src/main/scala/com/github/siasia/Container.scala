@@ -18,13 +18,7 @@ case class Container(name: String) {
 
 	private implicit def attributeToRunner[Runner](key: AttributeKey[Runner])(implicit state: State):Runner = state.get(key).get
 
-	private implicit def stateToRunner(state: State): Runner = state.get(attribute
-
-
-
-
-
-  ).get
+	private implicit def stateToRunner(state: State): Runner = state.get(attribute).getOrElse(Runner.apply(this, Seq()))
 
 	object Impl { 
 		def eval[T](key: Project.ScopedKey[sbt.Task[T]])(implicit state: State):T =
