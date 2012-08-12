@@ -8,8 +8,9 @@ target
 com.sportaneous-api-server/src/main/scala/com/com.sportaneous/prediction/SimplePredictor.scala
 web/src/main/webapp/.sass-cache/
 web/src/main/webapp/css/generate/
-
-
+**/target/**
+target/**
+commons/target/**
 *.class
 *.iml
 .idea/*
