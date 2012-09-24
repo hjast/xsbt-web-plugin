@@ -2,6 +2,6 @@
 [0m[[0mdebug[0m] [0m	staging: https://oss.sonatype.org/service/local/staging/deploy/maven2/[0m
 [0m[[0mdebug[0m] [0mDefault repositories:[0m
 [0m[[0mdebug[0m] [0m	Raw(ProjectResolver(inter-project, mapped: ))[0m
-[0m[[0mdebug[0m] [0m	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@1dd1702e)[0m
+[0m[[0mdebug[0m] [0m	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@6e750140)[0m
 [0m[[0mdebug[0m] [0m	public: http://repo1.maven.org/maven2/[0m
 [0m[[0mdebug[0m] [0mUsing inline dependencies specified in Scala.[0m

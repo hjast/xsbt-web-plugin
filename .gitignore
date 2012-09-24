@@ -32,6 +32,7 @@ test-output
 
 # sbt
 target
+commons/target
 lib_managed
 src_managed
 project/boot
